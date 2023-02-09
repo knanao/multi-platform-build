@@ -41,6 +41,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
+          provenance: true
           context: .
           file: cmd/helloworld/Dockerfile
           tags: |
