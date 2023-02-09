@@ -45,4 +45,4 @@ jobs:
           file: cmd/helloworld/Dockerfile
           tags: |
             ${{ env.GCR }}/knanao/helloworld:latest
-            ${{ env.GAR }}/knanao/helloworld:latest
+            ${{ env.GAR }}/knanao/helloworld/helloworld:latest
