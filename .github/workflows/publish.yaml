@@ -45,5 +45,4 @@ jobs:
           context: .
           file: cmd/helloworld/Dockerfile
           tags: |
-            #${{ env.GCR }}/knanao/helloworld:latest
             ${{ env.GAR }}/knanao/helloworld/helloworld:latest
