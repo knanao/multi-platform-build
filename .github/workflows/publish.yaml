@@ -22,7 +22,6 @@ jobs:
       - uses: actions/setup-go@v3.5.0
         with:
           go-version: 'stable'
-          cache: true 
       - name: Build go module
         run: |
           GOARCH="amd64" GOOS="linux" go build -o ./.artifacts/helloworld ./cmd/helloworld/main.go
